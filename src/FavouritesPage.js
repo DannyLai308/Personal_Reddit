@@ -27,7 +27,7 @@ class FavouritesPage extends React.Component {
             let postIds = JSON.parse(localStorage.getItem('favouritePosts') || []);
             postIds.forEach(element => {
                 //For each ID, fetch the corresponding api
-                fetch("http://www.reddit.com/comments/" + element + ".json").then(res => {
+                fetch("https://www.reddit.com/comments/" + element + ".json").then(res => {
                     if (res.status != 200) {
                         console.log("ERROR! CANNOT LOAD THE SPECIFIED SUBREDDIT");
                         return;

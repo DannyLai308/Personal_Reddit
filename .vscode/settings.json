@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/13f02068-e4fb-4178-b69f-14eba55c5720/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/TranLaiFrontEnd",
+    "appService.deploySubpath": "."
+}
